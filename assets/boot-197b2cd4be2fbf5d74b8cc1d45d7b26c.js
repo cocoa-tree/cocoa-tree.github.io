@@ -1,0 +1,1 @@
+(function(){var e;e=function(){var e,r,n,o,t;return n=new SeedsStore,o=new Worker("/assets/seeds_worker-1227880907033519ce32573a62a9e071.js"),t=new SeedsWorkerClient(o),e=new AppController(t,n),r=new AppRouter,r.appController=e,Backbone.history.start()},$(document).ready(e),$(document).on("page:load",e)}).call(this);
